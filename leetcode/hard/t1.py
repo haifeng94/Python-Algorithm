@@ -11,7 +11,7 @@ Note: You should try to optimize your time and space complexity.
 class Solution:
     def maxNumber(self, nums1, nums2, k):
         for i in range(k+1):
-            if i <= len(nums1) and k-i <= len(nums2): #nums1从小到大遍历，nums2从大到小遍历
+            if i <= len(nums1) and k-i <= len(nums2): #nums1从小到大遍历，nums2从大到小遍历。获取两个列表里每个列表所有可能提供的值的个数
                 p1 = self.prep(nums1, i)
                 p2 = self.prep(nums2, k-i)
                 self.merge(p1, p2)
