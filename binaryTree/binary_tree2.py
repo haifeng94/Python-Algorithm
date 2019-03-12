@@ -1,5 +1,7 @@
 # coding=utf-8
 
+'''用栈实现二叉树的前中后序遍历，队列实现层次遍历'''
+
 class Node(object):
     '''节点'''
     def __init__(self, elem=-1, lchild=None, rchild=None):
