@@ -1,5 +1,11 @@
 # coding=utf-8
 
+'''
+F = 0                            -->  n = 0
+F = 1                            -->  n = 1
+F(n) = F(n-1) + F(n-2)           -->  n >= 2                 
+'''
+
 class Fibonacci(object):
     def fibonacci_recursion_tool(self, n):
         '''递归实现'''
