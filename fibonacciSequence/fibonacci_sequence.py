@@ -7,6 +7,8 @@ F = 1                            -->  n = 1
 F(n) = F(n-1) + F(n-2)           -->  n >= 2                 
 '''
 
+#问题应用https://github.com/taizilongxu/interview_python#1-selectpoll%E5%92%8Cepoll
+
 class Fibonacci(object):
     def fibonacci_recursion_tool(self, n):
         '''递归实现'''
