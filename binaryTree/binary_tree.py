@@ -83,10 +83,10 @@ if __name__ == "__main__":
     tree.add(8)
 
     #先序遍历
-    tree.preorder(tree.root)
+    #tree.preorder(tree.root)
     #中序遍历
-    tree.inorder(tree.root)
+    #tree.inorder(tree.root)
     #后续遍历
-    tree.postorder(tree.root)
+    #tree.postorder(tree.root)
     #广度优先
     tree.breadth_travel(tree.root)
