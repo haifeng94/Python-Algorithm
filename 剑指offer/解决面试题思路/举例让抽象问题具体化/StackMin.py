@@ -23,7 +23,7 @@ class Solution:
         if not min or node < min:
             self.minstack.append(node)
         else:
-            self.minstack.append(self.min())
+            self.minstack.append(min)
 
     def pop(self):
         if self.stack == [] or self.minstack == []:
