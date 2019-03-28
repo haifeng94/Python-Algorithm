@@ -10,6 +10,7 @@ def find_integer(matrix, num):
     param num: int
     return: bool
     """
+    
     if not matrix:
         return False
     rows, cols = len(matrix), len(matrix[0])
