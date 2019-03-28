@@ -13,6 +13,5 @@
 然后求解这个无穷级数的和，正确答案应该是：每次至少跳一个，至多跳n个，一共有f(n)=2n-1种跳法
 '''
 
-
 def jumpFloorII(number):
     return 2 ** (number - 1)
