@@ -17,4 +17,4 @@ class MyQueue(object):
             return self.stack2.pop()
         while self.stack:
             self.stack2.append(self.stack.pop())
-        return self.stack2.pop() if self.stack2 else '队列为空'
+        return self.stack2.pop() if self.stack2 else "队列为空"
