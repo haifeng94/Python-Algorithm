@@ -27,7 +27,6 @@ class Solution:
         for i, v in enumerate(self.attr[:-1]):
             v.right = self.attr[i+1]
             self.attr[i+1].left = v
-
         return self.attr[0]
 
     def midOreder(self, root):
