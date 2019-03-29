@@ -15,5 +15,4 @@ class Solution:
             hashes[n] = hashes[n] + 1 if hashes.get(n) else 1
             if hashes[n] > length / 2:
                 return n
-
         return 0
