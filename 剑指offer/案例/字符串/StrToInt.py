@@ -39,26 +39,3 @@ class Solution2:
         if flag and len(string) == 1:
             return 0
         return ret if flag >= 0 else -ret
-
-def str_to_int(string):
-    if not string:  # 空字符返回0
-        return 0
-    flag = 0  # 用来表示第一个字符是否为+、-
-    ret = 0  # 结果
-    for k, s in enumerate(string):
-        if s.isdigit():  # 数字直接运算
-            val = ord(s) - ord('0')
-            ret = ret * 10 + val
-        else:
-            if not flag:
-                if s == '+' and k == 0:  # 避免中间出现+、-
-                    flag = 1
-                elif s == '-' and k == 0:
-                    flag = -1
-                else:
-                    return 0
-            else:
-                return 0
-    if flag and len(string) == 1:  # 判断是不是只有+、-
-        return 0
-    return ret if flag >= 0 else -ret
