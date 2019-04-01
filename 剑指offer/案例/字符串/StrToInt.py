@@ -12,10 +12,6 @@ class Solution:
         except:
             return 0
 
-s1 = Solution()
-res1 = s1.StrToInt('000091090')
-print(res1)
-
 '''
 思路二：特殊处理，比如123+，就不合理，但是-123就合理，因为这是个负数
 '''
