@@ -40,11 +40,6 @@ class Solution2:
             return 0
         return ret if flag >= 0 else -ret
 
-s2 = Solution2()
-res2 = s2.StrToInt2('09+1090')
-print(res2)
-
-
 def str_to_int(string):
     if not string:  # 空字符返回0
         return 0
