@@ -62,5 +62,3 @@ def str_to_int(string):
     if flag and len(string) == 1:  # 判断是不是只有+、-
         return 0
     return ret if flag >= 0 else -ret
-
-print(str_to_int('0023'))
