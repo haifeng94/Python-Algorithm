@@ -30,4 +30,4 @@ class Solution:
             heap[larger], heap[root] = heap[root], heap[larger]
             self.max_heapify(heap, heapsize, larger)
 
-print(Solution().heap_sort([2,4,6,7,1,2,5]))
+print(Solution().heap_sort([2,4,6,7,1,2,5,9]))
