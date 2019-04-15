@@ -5,7 +5,7 @@
 '''
 
 class Solution:
-    def heap_sort(self, heap): #将根节点取出与最后一位做对调，对前面len-1个节点继续进行对调整过程
+    def heap_sort(self, heap): #将根节点取出与最后一位做对调，对前面len-1个节点继续进行对调过程
         self.build_max_heap(heap)
         print(heap)
         for i in range(len(heap)-1, -1, -1):
